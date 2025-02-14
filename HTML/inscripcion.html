@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción a Cursos de Cocina</title>
+    <link rel="stylesheet" href="../CSS/inscripcion.css">
+    <link rel="icon" type="image/png" href="../IMG/logoraton.png"/>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="btn-regreso">← Regresar a la Página Principal</a>
+        <h1>Inscripción a Cursos de Cocina</h1>
+    </header>
+    <main>
+        <form id="form-inscripcion">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="curso">Seleccione el Curso:</label>
+            <select id="curso" name="curso" required>
+                <option value="" disabled selected>-- Seleccione un Curso --</option>
+                <option value="cocina_fit">Cocina Fit y Pastelería - $100</option>
+                <option value="cocina_mixta">Cocina Mixta y de Vanguardia - $120</option>
+                <option value="cocina_mediterranea">Cocina Mediterránea y de Vanguardia - $110</option>
+                <option value="cocina_mar">Cocina de Mar y de Fiestas - $130</option>
+            </select>
+
+            <button type="submit">Confirmar Inscripción</button>
+        </form>
+    </main>
+</body>
+</html>

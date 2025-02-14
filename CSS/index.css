@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 140vh;
+    margin: 150;
+}
+
+.Header {
+    flex: 0px;
+}
+
+.Footer {
+    flex: -1px;
+}

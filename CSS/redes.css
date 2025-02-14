@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../IMG/logoraton.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.social-container {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-gap: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.social-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.social-box i {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.social-box span {
+    font-size: 1.2em;
+}
+
+.social-box:hover {
+    transform: scale(1.1);
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+
+.tiktok {
+    background-color: #000000;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
